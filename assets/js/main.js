@@ -94,7 +94,7 @@ function createNavBar() {
 
     const navLinks = [
         { href: 'index.html', text: 'Catálogo' },
-        { href: 'quienes-somos.html', text: 'Quiénes Somos' },
+        { href: 'quienes-somos/', text: 'Quiénes Somos' },
         { href: 'javascript:void(0)', text: 'Contacto', onclick: 'toggleModal(true)' }
     ];
 
@@ -182,7 +182,7 @@ function renderCatalog(products) {
     if (!grid || !products) return;
 
     grid.innerHTML = products.map((p, i) => `
-        <a href="product.html?id=${p.id}" 
+        <a href="product/?id=${p.id}" 
            class="reveal group" 
            style="transition-delay: ${i * 100}ms">
             <div class="premium-card-v2 h-full flex flex-col overflow-hidden">
@@ -265,7 +265,7 @@ async function initializeApp() {
     if (content) content.classList.add('page-load-reveal');
 
     const path = window.location.pathname;
-    if (path.includes('product.html')) {
+    if (path.includes('product/')) {
         const id = new URLSearchParams(window.location.search).get('id');
         if (id) {
             const products = await fetch(PRODUCTS_JSON_PATH).then(r => r.json());
