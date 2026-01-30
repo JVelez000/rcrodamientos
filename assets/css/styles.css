@@ -1,0 +1,462 @@
+/* --- RC RODAMIENTOS: ELEGANCIA MECÁNICA (V2) --- */
+
+/* 1. Typography & Imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,800;1,400&family=Oswald:wght@500;700&display=swap');
+
+/* 2. Advanced Design Tokens */
+:root {
+    /* Core Palette */
+    --color-primary: #FFD60A;
+    --color-primary-soft: #FFD60A;
+    /* Más saturado */
+    --color-black: #080808;
+    /* Un negro más profundo e "infinito" */
+    --color-dark: #121212;
+    --color-gray-900: #171717;
+    --color-gray-800: #262626;
+    --color-gray-400: #a3a3a3;
+    --color-light: #f8fafc;
+    --color-white: #ffffff;
+
+    /* Depth & Surfaces */
+    --glass-bg: rgba(255, 255, 255, 0.95);
+    /* Más opaco para legibilidad */
+    --glass-border: var(--color-primary);
+    /* Borde amarillo para resaltar */
+    --shadow-premium: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+    --shadow-heavy: 0 25px 50px -12px rgba(0, 0, 0, 0.3);
+
+    /* Fonts */
+    --font-heading: 'Oswald', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+/* Custom Hero Button */
+.btn-hero-outline {
+    background: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.btn-hero-outline:hover {
+    background: var(--color-primary);
+    color: var(--color-black);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 214, 10, 0.4);
+}
+
+/* 3. Global Resets & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-black);
+    background-color: #f8fafc;
+    line-height: 1.6;
+    overflow-x: hidden;
+    /* Noise texture overlay simulated via gradient */
+    background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+}
+
+/* 4. Typography System */
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* 5. Interactive Components (V2) */
+
+/* Glass Navigation */
+.glass-nav {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+/* 5. Components V2 */
+
+/* Logo Dynamic Interaction */
+.logo-rc {
+    color: var(--color-primary);
+    transition: color 0.3s ease;
+}
+
+.logo-text {
+    color: var(--color-black);
+    transition: color 0.3s ease;
+}
+
+.group:hover .logo-rc {
+    color: var(--color-black);
+}
+
+.group:hover .logo-text {
+    color: var(--color-primary);
+}
+
+/* Premium V2 Card Improved */
+.premium-card-v2 {
+    background: var(--color-white);
+    border: 2px solid #334155;
+    /* Borde más oscuro y grueso (slate-700 approx) */
+    border-radius: 4px;
+    transition: all 0.4s cubic-bezier(0.2, 0, 0.2, 1);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.premium-card-v2:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-primary);
+    /* Borde amarillo al pasar el mouse */
+    box-shadow: 0 20px 40px -10px rgba(255, 214, 10, 0.2);
+}
+
+/* Card Decorative Accents */
+.premium-card-v2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, transparent 50%, var(--color-primary) 50%);
+    opacity: 0.8;
+}
+
+.premium-card-v2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 214, 10, 0.05) 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: -1;
+    border-radius: inherit;
+}
+
+.premium-card-v2:hover::before {
+    opacity: 1;
+}
+
+/* Advanced Buttons */
+.btn-magnetic {
+    position: relative;
+    padding: 1rem 2rem;
+    background: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-magnetic::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: var(--color-primary);
+    top: 0;
+    left: 0;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 0;
+}
+
+.btn-magnetic:hover {
+    color: var(--color-black);
+}
+
+.btn-magnetic:hover::after {
+    width: 100%;
+}
+
+.btn-magnetic span {
+    position: relative;
+    z-index: 1;
+}
+
+/* 6. Animations (V2) */
+
+/* Scroll Reveal classes through JavaScript */
+.reveal {
+    opacity: 0;
+    transform: translateY(15px);
+    /* Menos desplazamiento para evitar que parezca vacío */
+    transition: all 0.6s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes drawLine {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.underline-animate {
+    position: relative;
+}
+
+.underline-animate::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--color-primary);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+}
+
+.underline-animate:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Hero Elements */
+.hero-gradient {
+    /* Diagonal 150deg division for better text placement */
+    background: linear-gradient(150deg, var(--color-primary) 0%, var(--color-primary) 44%, var(--color-black) 44.1%, var(--color-black) 100%);
+}
+
+@media (max-width: 1024px) {
+    .hero-gradient {
+        /* En móviles usamos división vertical (top/bottom) para que el texto respire */
+        background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-primary) 42%, var(--color-black) 42.1%, var(--color-black) 100%);
+    }
+
+    .hero-gradient h1 {
+        font-size: 3.5rem !important;
+        line-height: 1 !important;
+    }
+
+    .hero-gradient .container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+/* Global Mobile Fixes */
+@media (max-width: 640px) {
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .px-12 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .p-12 {
+        padding: 1.25rem;
+    }
+
+    .p-20 {
+        padding: 1.5rem;
+    }
+
+    .py-20 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    h1 {
+        font-size: 2.25rem !important;
+    }
+
+    h2 {
+        font-size: 1.75rem !important;
+    }
+
+    /* WhatsApp Button Mobile Adjustment */
+    .btn-hero-outline {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+/* Option Buttons in Detail */
+.option-btn {
+    border: 2px solid #e1e8f0;
+    color: #64748b;
+    transition: all 0.2s ease;
+}
+
+.option-btn.active {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-black);
+    box-shadow: 0 4px 12px rgba(255, 214, 10, 0.3);
+}
+
+.premium-card-v2 {
+    border: 2px solid #e2e8f0 !important;
+    /* Bordes notorios */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* 7. Specific Social Colors (V2) */
+.social-btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn:hover {
+    transform: scale(1.03) translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-v2 {
+    background: #25D366;
+    color: white;
+}
+
+.instagram-v2 {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+.linkedin-v2 {
+    background: #0077b5;
+    color: white;
+}
+
+.email-v2 {
+    background: white;
+    color: #d44638;
+    border: 1px solid #fee2e2;
+}
+
+/* 8. Page Fade-In */
+.page-load-reveal {
+    animation: slideUpFade 0.8s ease-out forwards;
+}
+
+@keyframes slideUpFade {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Footer Accent */
+.footer-accent {
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), #000);
+}
+
+/* 9. Modal Transitions & Animations */
+.modal-content-transition {
+    transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    border: 3px solid var(--color-primary);
+    /* Borde completo amarillo */
+}
+
+.modal-hidden-state {
+    opacity: 0;
+    transform: scale(0.9) translateY(40px);
+    filter: blur(8px);
+}
+
+.modal-visible-state {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+}
+
+#contact-modal {
+    transition: opacity 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+/* Enhancing social buttons with brand accents */
+.social-btn {
+    border: 2px solid transparent;
+}
+
+.social-btn:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 15px rgba(255, 214, 10, 0.3);
+}
+
+/* Gallery Transitions */
+.gallery-fade {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.gallery-fade-out {
+    opacity: 0.1;
+    transform: scale(0.98);
+}
+
+/* Option Buttons in Detail View */
+.option-btn {
+    border: 1px solid #e5e7eb;
+    background: white;
+    color: #4b5563;
+    transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+    border-color: #d1d5db;
+    background: #f9fafb;
+}
+
+.option-btn.active {
+    background: #ffd60a !important;
+    color: #000000 !important;
+    border-color: #ffd60a !important;
+}

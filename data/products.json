@@ -1,0 +1,440 @@
+[
+  {
+    "id": 1,
+    "name": "Platina Perforada",
+    "description": "Platina perforada de anclaje hecha en hierro de alta resistencia para construcción y herrajes.",
+    "price": 4900,
+    "currency": "COP",
+    "images": [
+      "assets/images/platina_1.webp",
+      "assets/images/platina_2.webp",
+      "assets/images/platina_3.webp"
+    ],
+    "options": {
+      "size": [
+        {
+          "label": "7x7 cm",
+          "price": 4900
+        },
+        {
+          "label": "9x9 cm",
+          "price": 6200
+        },
+        {
+          "label": "10x10 cm",
+          "price": 7500
+        },
+        {
+          "label": "12x12 cm",
+          "price": 8800
+        },
+        {
+          "label": "15x15 cm",
+          "price": 11900
+        },
+        {
+          "label": "20x20 cm",
+          "price": 16900
+        },
+        {
+          "label": "25x25 cm",
+          "price": 29000
+        }
+      ],
+      "type": [
+        "Perforado"
+      ],
+      "painted": [
+        "No",
+        "Rojo Oxido"
+      ]
+    },
+    "showOptions": {
+      "size": "Medida",
+      "type": "Tipo",
+      "painted": false
+    }
+  },
+  {
+    "id": 2,
+    "name": "Disco de Corte 4 1/2",
+    "description": "Disco de corte para metal de alta resistencia y durabilidad, ideal para trabajos industriales exigentes.",
+    "price": 3500,
+    "currency": "COP",
+    "images": [
+      "assets/images/disco_corte_4_1-2.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 3,
+    "name": "Disco Flap",
+    "description": "Disco flap para desbaste y acabado de superficies metálicas. Proporciona un pulido uniforme y rápido.",
+    "price": 3800,
+    "currency": "COP",
+    "images": [
+      "assets/images/disco_flap_4-5.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 4,
+    "name": "Guantes de Ingeniero Cuero Vaqueta",
+    "description": "Guantes de protección fabricados en cuero vaqueta de alta calidad para máxima protección y flexibilidad.",
+    "price": 7500,
+    "currency": "COP",
+    "images": [
+      "assets/images/guantes_ingeniero_cuero_vaqueta.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 5,
+    "name": "Guía Aérea",
+    "description": "Guía aérea para sistemas de puertas corredizas metálicas y de madera. Garantiza un deslizamiento fluido.",
+    "price": 15500,
+    "currency": "COP",
+    "images": [
+      "assets/images/guia_aerea_1.webp",
+      "assets/images/guia_aerea_2.webp"
+    ],
+    "options": {
+      "size": [
+        {
+          "label": "Mini",
+          "price": 15500
+        },
+        {
+          "label": "Pequeña",
+          "price": 18500
+        },
+        {
+          "label": "Mediana",
+          "price": 28500
+        },
+        {
+          "label": "Grande",
+          "price": 31000
+        }
+      ]
+    },
+    "showOptions": {
+      "size": "Medida"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Guía de Muro",
+    "description": "Guía para instalación en muro de puertas residenciales e industriales, fabricada en acero reforzado.",
+    "price": 6500,
+    "currency": "COP",
+    "images": [
+      "assets/images/guia_muro_1.webp",
+      "assets/images/guia_muro_2.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 7,
+    "name": "Guía de Piso",
+    "description": "Guía de piso para estabilidad en puertas corredizas, disponible en versiones sencilla y especial.",
+    "price": 8500,
+    "currency": "COP",
+    "images": [
+      "assets/images/guia_piso_1.webp",
+      "assets/images/guia_piso_2.webp"
+    ],
+    "options": {
+      "type": [
+        {
+          "label": "Sencilla",
+          "price": 8500
+        },
+        {
+          "label": "Especial",
+          "price": 13800
+        }
+      ]
+    },
+    "showOptions": {
+      "type": "Tipo"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Guía Platina",
+    "description": "Guía fabricada en platina de alta dureza para fijación resistente en portones y sistemas industriales.",
+    "price": 8500,
+    "currency": "COP",
+    "images": [
+      "assets/images/guia_platina_1.webp",
+      "assets/images/guia_platina_2.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 9,
+    "name": "Pasador Candado Universal Galvanizado",
+    "description": "Pasador de seguridad universal con acabado galvanizado 5/16 para mayor resistencia a la oxidación.",
+    "price": 5800,
+    "currency": "COP",
+    "images": [
+      "assets/images/pasador_candado_universal_g.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 10,
+    "name": "Pasador Candado Universal 3/4",
+    "description": "Pasador universal robusto de 3/4 para máxima seguridad en puertas pesadas y portones.",
+    "price": 10500,
+    "currency": "COP",
+    "images": [
+      "assets/images/pasador_candado_universal.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 11,
+    "name": "Repuestos Nylon",
+    "description": "Repuestos de nylon de alta densidad para rodos y guías industriales, resistentes al desgaste.",
+    "price": 7200,
+    "currency": "COP",
+    "images": [
+      "assets/images/repuestos_nylon_1.webp",
+      "assets/images/repuestos_nylon_2.webp"
+    ],
+    "options": {
+      "size": [
+        {
+          "label": "25x48mm",
+          "price": 7200
+        },
+        {
+          "label": "35x40mm",
+          "price": 7200
+        },
+        {
+          "label": "35x56mm",
+          "price": 10500
+        },
+        {
+          "label": "40x60mm",
+          "price": 11200
+        }
+      ]
+    },
+    "showOptions": {
+      "size": "Medida"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Rodamiento de Aluminio en U",
+    "description": "Rodamiento ligero y resistente fabricado en aluminio con canal en U para rieles específicos.",
+    "price": 13200,
+    "currency": "COP",
+    "images": [
+      "assets/images/rod_aluminio_u.webp"
+    ],
+    "options": {
+      "size": [
+        {
+          "label": "1 3/4\"",
+          "price": 13200
+        },
+        {
+          "label": "2\"",
+          "price": 13800
+        },
+        {
+          "label": "2 1/4\"",
+          "price": 15200
+        }
+      ]
+    },
+    "showOptions": {
+      "size": "Medida"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Rodamiento Doble Balinera Hierro en V",
+    "description": "Rodamiento de carga pesada con doble balinera y canal en V para un desplazamiento suave y seguro.",
+    "price": 34000,
+    "currency": "COP",
+    "images": [
+      "assets/images/rod_doble_balinera_hierro_v.webp"
+    ],
+    "options": {
+      "size": [
+        {
+          "label": "3\"",
+          "price": 34000
+        },
+        {
+          "label": "3 1/2\"",
+          "price": 48000
+        },
+        {
+          "label": "4\"",
+          "price": 65000
+        },
+        {
+          "label": "5\"",
+          "price": 85000
+        }
+      ]
+    },
+    "showOptions": {
+      "size": "Medida"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Rodamiento Tropicalizado en V sobreponer",
+    "description": "Rodamiento con tratamiento tropicalizado autolubricado, canal en V de sobreponer para exteriores.",
+    "price": 6000,
+    "currency": "COP",
+    "images": [
+      "assets/images/rod_tropicalizado_sobreponer_1.webp",
+      "assets/images/rod_tropicalizado_sobreponer_2.webp"
+    ],
+    "options": {
+      "size": [
+        {
+          "label": "3cm",
+          "price": 6000
+        },
+        {
+          "label": "4cm",
+          "price": 8200
+        },
+        {
+          "label": "5cm",
+          "price": 10500
+        },
+        {
+          "label": "6cm",
+          "price": 12500
+        },
+        {
+          "label": "7cm",
+          "price": 17500
+        },
+        {
+          "label": "8cm",
+          "price": 23000
+        },
+        {
+          "label": "9cm",
+          "price": 28000
+        },
+        {
+          "label": "10cm",
+          "price": 34000
+        }
+      ]
+    },
+    "showOptions": {
+      "size": "Medida"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Rodamiento de Colgar Especial",
+    "description": "Rodamiento de diseño especial para sistemas de rieles de colgar de carga media e industrial.",
+    "price": 10200,
+    "currency": "COP",
+    "images": [
+      "assets/images/roda_colgar_e_1.webp",
+      "assets/images/roda_colgar_e_2.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 16,
+    "name": "Rodamiento de Colgar Sencillo",
+    "description": "Rodamiento de colgar sencillo y eficiente para puertas residenciales y divisiones.",
+    "price": 7500,
+    "currency": "COP",
+    "images": [
+      "assets/images/roda_colgar_s_1.webp",
+      "assets/images/roda_colgar_s_2.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 17,
+    "name": "Rodamiento de Hierro en V",
+    "description": "Rodamiento clásico de hierro de alta resistencia con canal en V para rieles angulares.",
+    "price": 11500,
+    "currency": "COP",
+    "images": [
+      "assets/images/rodamiento_hierro_v_1.webp",
+      "assets/images/rodamiento_hierro_v_2.webp"
+    ],
+    "options": {
+      "size": [
+        {
+          "label": "1 1/2\"",
+          "price": 11500
+        },
+        {
+          "label": "1 3/4\"",
+          "price": 12500
+        },
+        {
+          "label": "2 1/4\"",
+          "price": 15500
+        },
+        {
+          "label": "2 3/4\"",
+          "price": 18000
+        },
+        {
+          "label": "3 1/2\"",
+          "price": 35000
+        }
+      ]
+    },
+    "showOptions": {
+      "size": "Medida"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Sistema de Rieles en J",
+    "description": "Kit de par de sistemas de rieles tipo J para puertas corredizas industriales y residenciales. Fabricado en acero reforzado para garantizar máxima estabilidad, seguridad y un rodamiento fluido de alta durabilidad.",
+    "price": 85000,
+    "currency": "COP",
+    "images": [
+      "assets/images/sistema_rieles_j_1.webp",
+      "assets/images/sistema_rieles_j_2.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  },
+  {
+    "id": 19,
+    "name": "Guantes Nitrilo",
+    "description": "Guantes de nitrilo de alta resistencia, ideales para manejo de sustancias químicas y protección general.",
+    "price": 4000,
+    "currency": "COP",
+    "images": [
+      "assets/images/guantes_nitrilo_1.webp",
+      "assets/images/guantes_nitrilo_2.webp"
+    ],
+    "options": {},
+    "showOptions": {}
+  }
+]

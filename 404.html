@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada | RC RODAMIENTOS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary-soft': '#FFD60A',
+          },
+          fontFamily: {
+            'heading': ['Oswald', 'sans-serif'],
+            'body': ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+</head>
+
+<body class="bg-[#f8fafc] h-screen flex flex-col items-center justify-center text-center px-4">
+
+  <div class="mb-8 relative">
+    <h1 class="text-9xl font-heading font-bold text-gray-200">404</h1>
+    <div class="absolute inset-0 flex items-center justify-center">
+      <span
+        class="text-3xl font-heading font-bold text-primary-soft bg-black px-4 py-1 -rotate-6 transform shadow-lg">ERROR</span>
+    </div>
+  </div>
+
+  <h2 class="text-2xl md:text-3xl font-heading font-bold text-black mb-4 uppercase tracking-wide">Página no encontrada
+  </h2>
+  <p class="text-gray-500 font-body mb-8 max-w-md mx-auto">
+    Lo sentimos, la pieza que buscas no está en nuestro inventario o el enlace está roto.
+  </p>
+
+  <a href="index.html"
+    class="group inline-flex items-center gap-3 px-8 py-4 bg-black text-white hover:bg-primary-soft hover:text-black transition-all rounded-lg shadow-lg hover:shadow-primary-soft/50">
+    <span class="font-heading font-bold tracking-widest uppercase">Volver al Inicio</span>
+    <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor"
+      viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+    </svg>
+  </a>
+
+</body>
+
+</html>

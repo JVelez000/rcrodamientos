@@ -1,0 +1,73 @@
+ACTA DE ENTREGA Y ACEPTACIÓN DEL PROYECTO
+
+En la ciudad de Medellín, a los ____ días del mes de __________________ de 2026, se firma la presente Acta de Entrega y 
+Aceptación del Proyecto de Software, entre las siguientes partes:
+
+1. DATOS DE LAS PARTES
+
+Desarrollador
+Nombre completo: Jeims Emmanuel Vélez Echavarría
+Documento de identidad: 1015188992
+Correo electrónico: jeims1221jeims@gmail.com
+
+Cliente
+Nombre completo: _________________________________
+Documento de identidad / NIT: _____________________
+Correo electrónico: ______________________________
+
+2. PROYECTO
+
+Nombre del proyecto: RC RODAMIENTOS
+Tipo de proyecto: Página web corporativa y catálogo dinámico
+Tecnologías utilizadas: HTML5, Tailwind CSS (CDN), Vanilla JavaScript, JSON, SEO/Metadata (JSON-LD)
+Fecha de entrega: ____/____/2026
+
+3. OBJETO DEL DOCUMENTO
+
+El presente documento tiene como finalidad dejar constancia de la entrega y aceptación del proyecto de software denominado 
+“RC RODAMIENTOS”, desarrollado por el Desarrollador para el Cliente, de acuerdo con lo solicitado por este último.
+
+4. DESCRIPCIÓN GENERAL DEL PROYECTO
+
+El proyecto RC RODAMIENTOS consiste en una página web informativa de alta gama que presenta el catálogo de productos de 
+forma dinámica, servicios, información de contacto y optimización para buscadores (SEO), desarrollada con una arquitectura 
+ligera basada en datos JSON sin necesidad de backend complejo.
+
+5. ENTREGA DEL PROYECTO
+
+El Desarrollador hace entrega al Cliente de:
+- Archivos del proyecto (HTML, CSS, JavaScript, JSON)
+- Directorio de imágenes optimizado (Formato WebP)
+- Metadatos configurados para Google y redes sociales
+- Proyecto listo para despliegue y uso inmediato
+
+6. ACEPTACIÓN DEL CLIENTE
+
+El Cliente declara que ha recibido el proyecto RC RODAMIENTOS, lo ha revisado y lo acepta a satisfacción, confirmando que 
+cumple con lo solicitado y con los estándares de diseño acordados.
+
+7. ALCANCE Y CAMBIOS FUTUROS
+
+El proyecto se considera finalizado con la firma de la presente acta. 
+Cualquier cambio, mejora o nueva funcionalidad solicitada posteriormente será considerada como un trabajo adicional y
+deberá acordarse aparte.
+
+8. PROPIEDAD DEL PROYECTO
+
+El Cliente podrá hacer uso del proyecto entregado para los fines propios de su negocio. 
+El Desarrollador conserva el derecho de mencionar el proyecto como parte de su portafolio personal 
+(Jeims Emmanuel Velez Echavarría - Desarrollador).
+
+9. FIRMAS
+
+En constancia de lo anterior, se firma la presente acta.
+
+Desarrollador
+Nombre: _______________________________
+Firma: ________________________________
+Fecha: ________________________________
+
+Cliente
+Nombre: _______________________________
+Firma: ________________________________
+Fecha: ________________________________

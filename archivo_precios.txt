@@ -1,0 +1,29 @@
+ahora empezare desde arriba
+
+(recuerda, en la estructura tendremos id, name, description etc, todo hasta images, de options para abajo no ok? y obvio el mensaje de whatsapp se tiene que adaptar, ya que unas tendran opciones y otras no
+
+el mensaje actual esta bien
+
+quiero que funcione tanto para piezas con varias opciones como para piezas sin opciones)
+
+te podre los precios aca, todo sera en cop
+
+disco corte 4_1-2 3500
+disco flap 3800
+guantes ingeniero cuero vaqueta 7500
+guantes nitrilo 4000
+guia aerea (mini 15500, pequeña 18500, mediana 28500, grande 31000)
+guia muro 6500
+quia de piso (sera especial y sencilla, especial 13800 y sencilla 8500)
+guia platina 8500
+pasador candado universal g (g de galvanizado) 5"6 5800
+pasador candado universal (el que no tiene la g) 3/4 10500
+platina ya esta
+repuestos nylon 25x48mm 7200, 35x40mm 7200, 35x56mm 10500, 40x60mm 11200
+rod aluminio u (el nombre es rodamiento de aluminio en u, no se lo cambies a la foto, solo que a unos les puse el nombre mas corto) 1 (3/4 osea uno y 3 cuartos) 13200, 2" 13800, 2 y 1/4 15200
+rod doble baline... este es rodamiento de doble balinera de hierro en v (3" 34000, 3 y 1/2 48000, 4" 65000 5" 85000)
+rodamiento tropicalizado en v de sobreponer 3cm 6000, 4cm 8200, 5cm 10500, 6cm 12500, 7cm 17500, 8cm 23000, 9cm 28000, 10cm 34000
+rod colgar e es rodamiento de colgar especial 10200
+rod colgar s es rodamiento de colgar sencillo 7500
+rodamiento de hierro en v 1 1/2 11500, 1 3/4 12500, 2 1/4 15500, 2 3/4 18000, 3 1/2 35000
+sistema de rieles en j 85000 por par

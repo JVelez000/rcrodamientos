@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto | RC RODAMIENTOS</title>
+    <meta name="description"
+        content="Cotiza rodamientos industriales y repuestos para construcción en RC RODAMIENTOS. Precios competitivos, envío rápido y atención personalizada por WhatsApp. Más de 10 años de experiencia en Colombia.">
+
+    <!-- Open Graph / Facebook (Dynamic placeholders) -->
+    <meta property="og:type" content="product">
+    <meta id="og-title" property="og:title" content="Producto | RC RODAMIENTOS">
+    <meta id="og-description" property="og:description"
+        content="Consulta medidas y precios en nuestro catálogo industrial.">
+    <meta id="og-image" property="og:image" content="https://rcrodamientos.com/assets/images/og-default.jpg">
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+    <!-- Structured Data Placeholder -->
+    <script id="product-schema" type="application/ld+json">{}</script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Styles Link -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-soft': '#FFD60A',
+                    },
+                    fontFamily: {
+                        'heading': ['Oswald', 'sans-serif'],
+                        'body': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-[#f8fafc] flex flex-col min-h-screen">
+    <!-- GLOBAL LOADER -->
+    <div id="global-loader"
+        class="fixed inset-0 z-[500] flex flex-col items-center justify-center bg-[#f8fafc] transition-opacity duration-700">
+        <div class="w-16 h-16 border-4 border-primary-soft border-t-transparent rounded-full animate-spin mb-4"></div>
+        <span class="text-black font-heading font-bold tracking-[0.3em] uppercase animate-pulse">RC RODAMIENTOS</span>
+    </div>
+
+    <!-- 1. HEADER / NAVBAR CONTAINER -->
+    <div id="header-container"></div>
+
+    <!-- 3. PRODUCT DETAIL CONTAINER -->
+    <main id="detail-container" class="flex-grow container mx-auto px-4 py-8">
+        <!-- CONTAINER FOR PAGE FADE-IN ANIMATION -->
+        <div id="page-content" class="page-content-hidden">
+            <!-- Volver button container -->
+            <div id="back-button-container" class="mb-4"></div>
+            <div id="product-detail" class="bg-white p-6 shadow-xl rounded-lg">
+                <!-- Product detail will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- 5. FOOTER CONTAINER -->
+    <div id="footer-container"></div>
+
+    <!-- Contact Modal Container -->
+    <div id="contact-modal-container"></div>
+
+    <!-- JavaScript Link -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
