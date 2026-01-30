@@ -1,6 +1,6 @@
 // --- RC RODAMIENTOS: ELEGANCIA MECÁNICA (JS V2) ---
 
-const PRODUCTS_JSON_PATH = 'data/products.json';
+const PRODUCTS_JSON_PATH = '/data/products.json';
 const WHATSAPP_PHONE = "573502032524";
 
 // --- UTILITIES & ANIMATIONS ---
@@ -93,8 +93,8 @@ function createNavBar() {
     if (!container) return;
 
     const navLinks = [
-        { href: 'index.html', text: 'Catálogo' },
-        { href: 'quienes-somos/', text: 'Quiénes Somos' },
+        { href: '/', text: 'Catálogo' },
+        { href: '/quienes-somos/', text: 'Quiénes Somos' },
         { href: 'javascript:void(0)', text: 'Contacto', onclick: 'toggleModal(true)' }
     ];
 
@@ -109,8 +109,8 @@ function createNavBar() {
     container.innerHTML = `
         <header class="glass-nav sticky top-0 z-[100] transition-all duration-500">
             <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-                <a href="index.html" class="flex items-center group">
-                    <img src="assets/images/logo.png" alt="Logo RC Rodamientos" class="h-10 w-auto mr-3 object-contain">
+                <a href="/" class="flex items-center group">
+                    <img src="/assets/images/logo.png" alt="Logo RC Rodamientos" class="h-10 w-auto mr-3 object-contain">
                     <div class="flex flex-col leading-none">
                         <span class="text-2xl font-heading font-black tracking-tighter logo-rc text-primary-soft group-hover:text-black transition-colors duration-300">RC</span>
                         <span class="text-sm font-heading font-bold tracking-[0.2em] logo-text text-black group-hover:text-primary-soft transition-colors duration-300">RODAMIENTOS</span>
@@ -182,7 +182,7 @@ function renderCatalog(products) {
     if (!grid || !products) return;
 
     grid.innerHTML = products.map((p, i) => `
-        <a href="product/?id=${p.id}" 
+        <a href="/product/?id=${p.id}" 
            class="reveal group" 
            style="transition-delay: ${i * 100}ms">
             <div class="premium-card-v2 h-full flex flex-col overflow-hidden">
@@ -352,7 +352,7 @@ async function renderProductDetail(product) {
     if (bb) {
         bb.innerHTML = `
             <div class="mb-8">
-                <a href="index.html" class="group inline-flex items-center gap-3 px-5 py-3 bg-gray-50 hover:bg-primary-soft border border-gray-200 hover:border-primary-soft rounded-lg transition-all">
+                <a href="/" class="group inline-flex items-center gap-3 px-5 py-3 bg-gray-50 hover:bg-primary-soft border border-gray-200 hover:border-primary-soft rounded-lg transition-all">
                     <div class="w-8 h-8 rounded-full bg-black group-hover:bg-black flex items-center justify-center text-primary-soft transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/>
