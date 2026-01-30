@@ -6,9 +6,9 @@
     "price": 4900,
     "currency": "COP",
     "images": [
-      "assets/images/platina_1.webp",
-      "assets/images/platina_2.webp",
-      "assets/images/platina_3.webp"
+      "/assets/images/platina_1.webp",
+      "/assets/images/platina_2.webp",
+      "/assets/images/platina_3.webp"
     ],
     "options": {
       "size": [
@@ -62,7 +62,7 @@
     "price": 3500,
     "currency": "COP",
     "images": [
-      "assets/images/disco_corte_4_1-2.webp"
+      "/assets/images/disco_corte_4_1-2.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -74,7 +74,7 @@
     "price": 3800,
     "currency": "COP",
     "images": [
-      "assets/images/disco_flap_4-5.webp"
+      "/assets/images/disco_flap_4-5.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -86,7 +86,7 @@
     "price": 7500,
     "currency": "COP",
     "images": [
-      "assets/images/guantes_ingeniero_cuero_vaqueta.webp"
+      "/assets/images/guantes_ingeniero_cuero_vaqueta.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -98,8 +98,8 @@
     "price": 15500,
     "currency": "COP",
     "images": [
-      "assets/images/guia_aerea_1.webp",
-      "assets/images/guia_aerea_2.webp"
+      "/assets/images/guia_aerea_1.webp",
+      "/assets/images/guia_aerea_2.webp"
     ],
     "options": {
       "size": [
@@ -132,8 +132,8 @@
     "price": 6500,
     "currency": "COP",
     "images": [
-      "assets/images/guia_muro_1.webp",
-      "assets/images/guia_muro_2.webp"
+      "/assets/images/guia_muro_1.webp",
+      "/assets/images/guia_muro_2.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -145,8 +145,8 @@
     "price": 8500,
     "currency": "COP",
     "images": [
-      "assets/images/guia_piso_1.webp",
-      "assets/images/guia_piso_2.webp"
+      "/assets/images/guia_piso_1.webp",
+      "/assets/images/guia_piso_2.webp"
     ],
     "options": {
       "type": [
@@ -171,8 +171,8 @@
     "price": 8500,
     "currency": "COP",
     "images": [
-      "assets/images/guia_platina_1.webp",
-      "assets/images/guia_platina_2.webp"
+      "/assets/images/guia_platina_1.webp",
+      "/assets/images/guia_platina_2.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -184,7 +184,7 @@
     "price": 5800,
     "currency": "COP",
     "images": [
-      "assets/images/pasador_candado_universal_g.webp"
+      "/assets/images/pasador_candado_universal_g.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -196,7 +196,7 @@
     "price": 10500,
     "currency": "COP",
     "images": [
-      "assets/images/pasador_candado_universal.webp"
+      "/assets/images/pasador_candado_universal.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -208,8 +208,8 @@
     "price": 7200,
     "currency": "COP",
     "images": [
-      "assets/images/repuestos_nylon_1.webp",
-      "assets/images/repuestos_nylon_2.webp"
+      "/assets/images/repuestos_nylon_1.webp",
+      "/assets/images/repuestos_nylon_2.webp"
     ],
     "options": {
       "size": [
@@ -242,7 +242,7 @@
     "price": 13200,
     "currency": "COP",
     "images": [
-      "assets/images/rod_aluminio_u.webp"
+      "/assets/images/rod_aluminio_u.webp"
     ],
     "options": {
       "size": [
@@ -271,7 +271,7 @@
     "price": 34000,
     "currency": "COP",
     "images": [
-      "assets/images/rod_doble_balinera_hierro_v.webp"
+      "/assets/images/rod_doble_balinera_hierro_v.webp"
     ],
     "options": {
       "size": [
@@ -304,8 +304,8 @@
     "price": 6000,
     "currency": "COP",
     "images": [
-      "assets/images/rod_tropicalizado_sobreponer_1.webp",
-      "assets/images/rod_tropicalizado_sobreponer_2.webp"
+      "/assets/images/rod_tropicalizado_sobreponer_1.webp",
+      "/assets/images/rod_tropicalizado_sobreponer_2.webp"
     ],
     "options": {
       "size": [
@@ -354,8 +354,8 @@
     "price": 10200,
     "currency": "COP",
     "images": [
-      "assets/images/roda_colgar_e_1.webp",
-      "assets/images/roda_colgar_e_2.webp"
+      "/assets/images/roda_colgar_e_1.webp",
+      "/assets/images/roda_colgar_e_2.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -367,8 +367,8 @@
     "price": 7500,
     "currency": "COP",
     "images": [
-      "assets/images/roda_colgar_s_1.webp",
-      "assets/images/roda_colgar_s_2.webp"
+      "/assets/images/roda_colgar_s_1.webp",
+      "/assets/images/roda_colgar_s_2.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -380,8 +380,8 @@
     "price": 11500,
     "currency": "COP",
     "images": [
-      "assets/images/rodamiento_hierro_v_1.webp",
-      "assets/images/rodamiento_hierro_v_2.webp"
+      "/assets/images/rodamiento_hierro_v_1.webp",
+      "/assets/images/rodamiento_hierro_v_2.webp"
     ],
     "options": {
       "size": [
@@ -418,8 +418,8 @@
     "price": 85000,
     "currency": "COP",
     "images": [
-      "assets/images/sistema_rieles_j_1.webp",
-      "assets/images/sistema_rieles_j_2.webp"
+      "/assets/images/sistema_rieles_j_1.webp",
+      "/assets/images/sistema_rieles_j_2.webp"
     ],
     "options": {},
     "showOptions": {}
@@ -431,8 +431,8 @@
     "price": 4000,
     "currency": "COP",
     "images": [
-      "assets/images/guantes_nitrilo_1.webp",
-      "assets/images/guantes_nitrilo_2.webp"
+      "/assets/images/guantes_nitrilo_1.webp",
+      "/assets/images/guantes_nitrilo_2.webp"
     ],
     "options": {},
     "showOptions": {}
