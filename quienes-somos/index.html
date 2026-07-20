@@ -8,16 +8,24 @@
     <meta name="description"
         content="Conoce RC RODAMIENTOS: empresa familiar colombiana con más de 10 años distribuyendo rodamientos industriales, platinas perforadas y repuestos para construcción. Compromiso, calidad y atención personalizada.">
 
+    <!-- Canonical -->
+    <link rel="canonical" href="https://rcrodamientos.net/quienes-somos/">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rcrodamientos.net/quienes-somos/">
     <meta property="og:title" content="Quiénes Somos | RC RODAMIENTOS">
     <meta property="og:description" content="Más de 10 años de experiencia y respaldo técnico en el sector industrial.">
-    <meta property="og:image" content="https://rcrodamientos.com/assets/images/og-quienes-somos.jpg">
+    <meta property="og:image" content="https://rcrodamientos.net/assets/images/og-quienes-somos.jpg">
 
     <!-- Favicon & Icons -->
     <link rel="icon" href="../favicon.ico" sizes="any">
     <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png">
     <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+
+    <!-- Performance: preconnect to third-party origins used above the fold -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../assets/css/styles.css">
@@ -73,18 +81,18 @@
 
                         <!-- Staggered Smaller Images -->
                         <div class="relative mt-8">
-                            <img src="../assets/images/quienes_2.webp" alt="Equipo"
-                                class="rounded-lg shadow-xl w-full aspect-square object-cover transform -rotate-1 hover:rotate-0 transition-transform duration-500">
+                            <img data-src="../assets/images/quienes_2.webp" alt="Equipo" decoding="async"
+                                class="lazy-img rounded-lg shadow-xl w-full aspect-square object-cover transform -rotate-1 hover:rotate-0 transition-transform duration-500">
                         </div>
                         <div class="relative -mt-12 ml-4">
-                            <img src="../assets/images/quienes_3.webp" alt="Logística"
-                                class="rounded-lg shadow-xl w-full aspect-square object-cover transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                            <img data-src="../assets/images/quienes_3.webp" alt="Logística" decoding="async"
+                                class="lazy-img rounded-lg shadow-xl w-full aspect-square object-cover transform rotate-2 hover:rotate-0 transition-transform duration-500">
                         </div>
 
                         <!-- Bottom Floating Image -->
                         <div class="col-span-2 mt-4 px-12">
-                            <img src="../assets/images/quienes_4.webp" alt="Detalle"
-                                class="rounded-lg shadow-lg w-full h-32 object-cover opacity-90 hover:opacity-100 transition-opacity">
+                            <img data-src="../assets/images/quienes_4.webp" alt="Detalle" decoding="async"
+                                class="lazy-img rounded-lg shadow-lg w-full h-32 object-cover opacity-90 hover:opacity-100 transition-opacity">
                         </div>
                     </div>
                 </div>
@@ -140,7 +148,7 @@
     <div id="footer-container"></div>
     <div id="contact-modal-container"></div>
 
-    <script src="../assets/js/main.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
 </body>
 
 </html>

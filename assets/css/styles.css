@@ -271,11 +271,6 @@ h4 {
         font-size: 3.5rem !important;
         line-height: 1 !important;
     }
-
-    .hero-gradient .container {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
 }
 
 /* Global Mobile Fixes */
@@ -305,6 +300,13 @@ h4 {
 
     h1 {
         font-size: 2.25rem !important;
+    }
+
+    /* Más específico que ".hero-gradient h1" del breakpoint anterior,
+       para que sí pueda ganarle en pantallas muy angostas (móviles). */
+    .hero-gradient h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.05 !important;
     }
 
     h2 {
@@ -379,6 +381,33 @@ h4 {
 /* 8. Page Fade-In */
 .page-load-reveal {
     animation: slideUpFade 0.8s ease-out forwards;
+}
+
+/* Mobile Menu: smooth open/close (replaces instant hidden/shown toggle) */
+.mobile-menu {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mobile-menu.mobile-menu-open {
+    max-height: 24rem;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+/* Lazy-loaded images: soft fade-in once downloaded (avoids abrupt pop-in) */
+.lazy-img {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.lazy-img.lazy-loaded {
+    opacity: 1;
 }
 
 @keyframes slideUpFade {
